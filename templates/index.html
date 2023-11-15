@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Post Generator</title>
+</head>
+<body>
+    <h2>Generate a Post in the Style of Justin Welsh</h2>
+    <form method="POST">
+        <textarea name="user_input" placeholder="Enter your questions or prompts here..." rows="4" cols="50"></textarea>
+        <br>
+        <input type="submit" value="Generate Post">
+    </form>
+
+    {% if generated_post %}
+        <h3>Generated Post:</h3>
+        <p>{{ generated_post }}</p>
+    {% endif %}
+</body>
+</html>
