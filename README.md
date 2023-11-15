@@ -1,3 +1,7 @@
+Download and add the "model.safetensors" to the "trained_model" and "trained_model_neo" folders fro below link:
+
+https://drive.google.com/drive/folders/1eI78-oQCSamD0xSfTJuHx4EAwJKat4mI?usp=sharing
+
 Title:
 LinkedIn Post Style Generation System
 
